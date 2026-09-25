@@ -84,12 +84,54 @@
     </section>
 
     <section class="section card-section" id="confirma">
-      <p class="eyebrow">CONFIRMACIÓN</p>
-      <h2>¿Nos acompañas?</h2>
-      <p>Pronto podréis confirmar vuestra asistencia desde aquí.</p>
-      <a class="button button-dark" href="#confirma">CONFIRMAR ASISTENCIA</a>
-      <p class="small-note">En el siguiente paso conectaremos este botón con un formulario gratuito.</p>
-    </section>
+  <p class="eyebrow">CONFIRMACIÓN</p>
+  <h2>¿Nos acompañas?</h2>
+  <p>Nos hace muchísima ilusión compartir este día con vosotros.</p>
+
+  <form action="https://formspree.io/f/xgavzdov" method="POST" class="rsvp-form">
+
+    <label>
+      Nombre y apellidos
+      <input type="text" name="nombre" required>
+    </label>
+
+    <label>
+      ¿Nos acompañas el 18 de septiembre de 2027?
+      <select name="asistencia" required>
+        <option value="">Selecciona una opción</option>
+        <option value="Sí, allí estaremos">Sí, allí estaremos ♡</option>
+        <option value="No podremos acompañaros">No podremos acompañaros</option>
+      </select>
+    </label>
+
+    <label>
+      ¿Cuántas personas asistiréis?
+      <select name="personas" required>
+        <option value="">Selecciona una opción</option>
+        <option value="1">1 persona</option>
+        <option value="2">2 personas</option>
+        <option value="3">3 personas</option>
+        <option value="4">4 personas</option>
+        <option value="5">5 personas</option>
+      </select>
+    </label>
+
+    <label>
+      Alergias, intolerancias o necesidades alimentarias
+      <textarea name="alergias" rows="3"></textarea>
+    </label>
+
+    <label>
+      ¿Queréis contarnos algo más?
+      <textarea name="mensaje" rows="3"></textarea>
+    </label>
+
+    <button type="submit" class="button button-dark">
+      ENVIAR CONFIRMACIÓN
+    </button>
+
+  </form>
+</section>
 
     <section class="section card-section" id="playlist">
       <p class="eyebrow">LA BANDA SONORA</p>
