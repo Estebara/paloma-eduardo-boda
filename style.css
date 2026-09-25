@@ -173,7 +173,7 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   align-items: center;
   margin: 2rem auto 0;
   max-width: 500px;
-  margin-bottom: 2rem; /* espacio extra debajo de todo el bloque */
+  margin-bottom: 1rem; /* espacio extra debajo de todo el bloque */
 }
 
 .song-form-fields input {
@@ -187,6 +187,7 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   letter-spacing: 0.02em;
   color: #3a352e;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 2.5rem;
 }
 
 .song-form-fields input::placeholder {
@@ -202,11 +203,11 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
 
 .song-form-fields button {
   padding: 1.15rem 2.4rem;      /* antes: 0.9rem 1.8rem → más grande */
-  font-size: 1.10rem;           /* antes: 0.85rem */
+  font-size: 0.8rem;           /* antes: 0.85rem */
   margin-bottom: 1.5rem;        /* nuevo: espacio debajo del botón */
   background: transparent;
   border: 1px solid #3a352e;
-  border-radius: 6px;
+  border-radius: 4px;
   font-family: inherit;
   letter-spacing: 0.12em;
   text-transform: uppercase;
