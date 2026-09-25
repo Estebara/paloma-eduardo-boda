@@ -187,7 +187,7 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   letter-spacing: 0.02em;
   color: #3a352e;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
-  margin-bottom: 2.5rem;
+  /* margin-bottom eliminado: descuadraba la fila */
 }
 
 .song-form-fields input::placeholder {
@@ -202,9 +202,8 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
 }
 
 .song-form-fields button {
-  padding: 1.15rem 2.4rem;      /* antes: 0.9rem 1.8rem → más grande */
-  font-size: 0.8rem;           /* antes: 0.85rem */
-  margin-bottom: 1.5rem;        /* nuevo: espacio debajo del botón */
+  padding: 0.9rem 1.2rem;   /* antes 1.15rem 2.4rem → igual que el input */
+  font-size: 0.85rem;       /* antes 0.8rem, ligero ajuste */
   background: transparent;
   border: 1px solid #3a352e;
   border-radius: 4px;
@@ -215,6 +214,7 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   cursor: pointer;
   transition: background 0.2s ease, color 0.2s ease;
   white-space: nowrap;
+  /* margin-bottom eliminado */
 }
 
 .song-form-fields button:hover {
@@ -227,4 +227,10 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   text-align: center;
   font-style: italic;
   color: #6b6357;
+}
+
+.button-spotify {
+  padding: 18px 30px;
+  font-size: 11px;
+  margin-bottom: 28px;
 }
