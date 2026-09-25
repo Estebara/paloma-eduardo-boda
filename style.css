@@ -59,20 +59,24 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
 
 /* FORMULARIO DE CONFIRMACIÓN */
 
+/* FORMULARIO DE CONFIRMACIÓN */
+
 .rsvp-form {
-  max-width: 620px;
-  margin: 3rem auto 0;
+  width: min(100%, 560px);
+  margin: 2.5rem auto 0;
   text-align: left;
 }
 
 .rsvp-form label {
   display: block;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.6rem;
+  color: #596052;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
   text-transform: uppercase;
-  color: #5f6754;
 }
 
 .rsvp-form input,
@@ -80,52 +84,74 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
 .rsvp-form textarea {
   display: block;
   width: 100%;
-  margin-top: 0.65rem;
-  padding: 0.9rem 0.2rem;
-  border: none;
-  border-bottom: 1px solid #c9c5b8;
-  border-radius: 0;
-  background: transparent;
+  min-height: 48px;
+  margin-top: 0.55rem;
+  padding: 0.75rem 0.85rem;
+  box-sizing: border-box;
+
+  border: 1px solid #d8d4c9;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.45);
+
   color: #34372f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.95rem;
+  font-size: 16px;
+  line-height: 1.4;
+
   outline: none;
-  box-sizing: border-box;
-  transition: border-color 0.25s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.rsvp-form textarea {
+  min-height: 100px;
+  resize: vertical;
 }
 
 .rsvp-form input:focus,
 .rsvp-form select:focus,
 .rsvp-form textarea:focus {
-  border-bottom-color: #68705c;
-}
-
-.rsvp-form textarea {
-  resize: vertical;
-  min-height: 80px;
-}
-
-.rsvp-form input::placeholder,
-.rsvp-form textarea::placeholder {
-  color: #aaa79d;
-}
-
-.rsvp-form select {
-  cursor: pointer;
+  border-color: #747c68;
+  background: rgba(255,255,255,0.7);
 }
 
 .rsvp-form button {
-  display: block;
-  margin: 2.5rem auto 0;
+  width: 100%;
+  min-height: 52px;
+  margin-top: 0.5rem;
   cursor: pointer;
 }
 
+/* MÓVIL */
+
 @media (max-width: 600px) {
+
+  .card-section {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .rsvp-form {
+    width: 100%;
     margin-top: 2rem;
   }
 
   .rsvp-form label {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.35rem;
+    font-size: 0.64rem;
+  }
+
+  .rsvp-form input,
+  .rsvp-form select,
+  .rsvp-form textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .rsvp-form button {
+    width: 100%;
+    min-height: 54px;
+    margin-top: 0.25rem;
   }
 }
+
