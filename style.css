@@ -56,9 +56,6 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
  .story{grid-template-columns:1fr;gap:40px;text-align:left}.story-photo img{max-height:500px}
 }
 
-
-/* FORMULARIO DE CONFIRMACIÓN */
-
 /* FORMULARIO DE CONFIRMACIÓN */
 
 .rsvp-form {
@@ -155,3 +152,65 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   }
 }
 
+/* CANCIONES */
+
+.song-form-fields {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 0;
+  max-width: 500px;
+}
+
+.song-form-fields input {
+  flex: 1 1 260px;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid #c9bfae;
+  border-radius: 4px;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: #3a352e;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.song-form-fields input::placeholder {
+  color: #9a8f7d;
+  font-style: italic;
+}
+
+.song-form-fields input:focus {
+  outline: none;
+  border-color: #3a352e;
+  box-shadow: 0 0 0 2px rgba(58, 53, 46, 0.08);
+}
+
+.song-form-fields button {
+  padding: 0.9rem 1.8rem;
+  background: transparent;
+  border: 1px solid #3a352e;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #3a352e;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.song-form-fields button:hover {
+  background: #3a352e;
+  color: #fdfaf5;
+}
+
+.song-thanks {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  color: #6b6357;
+}
