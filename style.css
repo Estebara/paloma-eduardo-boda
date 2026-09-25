@@ -18,7 +18,7 @@ h1 span{font-weight:400}
 .hero-photo{height:100vh;overflow:hidden}
 .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.85)}
 .scroll-cue{position:absolute;z-index:4;bottom:25px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:2px;color:white;text-shadow:0 1px 8px #333;white-space:nowrap}
-.section{padding:105px 9vw;text-align:center;position:relative}
+.section{padding:70px 9vw;text-align:center;position:relative}
 .section h2{font-size:46px;font-style:italic;margin:0 0 55px;color:var(--olive)}
 .countdown{background:var(--cream)}
 .timer{display:grid;grid-template-columns:repeat(4,1fr);max-width:850px;margin:auto}
