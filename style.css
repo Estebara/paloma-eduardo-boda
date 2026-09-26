@@ -39,7 +39,7 @@ h1 span{font-weight:400}
   object-fit:cover;
   object-position:center;
   filter:saturate(.85);
-  opacity:.35;
+  opacity:.20;
 }
 .scroll-cue{position:absolute;z-index:4;bottom:25px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:2px;color:white;text-shadow:0 1px 8px #333;white-space:nowrap}
 .section{padding:70px 9vw;text-align:center;position:relative}
