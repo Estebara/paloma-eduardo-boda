@@ -234,3 +234,53 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   font-size: 11px;
   margin-bottom: 28px;
 }
+
+.wedding-slideshow{
+  position:relative;
+  width:100%;
+  max-width:780px;
+  margin:0 auto;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  border-radius:2px;
+  box-shadow:0 10px 40px rgba(0,0,0,.08);
+}
+.wedding-slideshow img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  animation:slideFade 20s infinite ease-in-out;
+}
+.wedding-slideshow img:nth-child(1){animation-delay:0s}
+.wedding-slideshow img:nth-child(2){animation-delay:4s}
+.wedding-slideshow img:nth-child(3){animation-delay:8s}
+.wedding-slideshow img:nth-child(4){animation-delay:12s}
+.wedding-slideshow img:nth-child(5){animation-delay:16s}
+
+@keyframes slideFade{
+  0%{opacity:0}
+  4%{opacity:1}
+  20%{opacity:1}
+  25%{opacity:0}
+  100%{opacity:0}
+}
+
+.proposal-photo{
+  max-width:480px;
+  margin:25px auto 0;
+  border-radius:2px;
+  overflow:hidden;
+}
+.proposal-photo img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+@media(max-width:800px){
+  .wedding-slideshow{aspect-ratio:1/1}
+  .proposal-photo{max-width:100%}
+}
