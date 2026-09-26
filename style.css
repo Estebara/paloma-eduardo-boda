@@ -282,10 +282,10 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   animation:slideFade 10s infinite ease-in-out;
 }
 .wedding-slideshow img:nth-child(1){animation-delay:0s}
-.wedding-slideshow img:nth-child(2){animation-delay:2.5s}
-.wedding-slideshow img:nth-child(3){animation-delay:5s}
-.wedding-slideshow img:nth-child(4){animation-delay:7.5s}
-.wedding-slideshow img:nth-child(5){animation-delay:9s}
+.wedding-slideshow img:nth-child(2){animation-delay:4s}
+.wedding-slideshow img:nth-child(3){animation-delay:8s}
+.wedding-slideshow img:nth-child(4){animation-delay:12s}
+.wedding-slideshow img:nth-child(5){animation-delay:16s}
 
 @keyframes slideFade{
   0%{opacity:0}
