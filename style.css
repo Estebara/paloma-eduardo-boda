@@ -279,7 +279,7 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   height:100%;
   object-fit:cover;
   opacity:0;
-  animation:slideFade 20s infinite ease-in-out;
+  animation:slideFade 9s infinite ease-in-out;
 }
 .wedding-slideshow img:nth-child(1){animation-delay:0s}
 .wedding-slideshow img:nth-child(2){animation-delay:2.5s}
