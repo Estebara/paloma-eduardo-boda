@@ -53,8 +53,17 @@ h1 span{font-weight:400}
 .timer strong{display:block;font-family:"Cormorant Garamond",serif;font-size:64px;font-weight:400;color:var(--olive)}
 .timer span{font-size:9px;letter-spacing:3px}
 .places{max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:70px}
-.place{padding:0 35px;border-right:1px solid var(--line)}
-.place:last-child{border:0}
+.place{padding:0 35px;position:relative}
+.place:first-child::after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:-35px;
+  width:1px;
+  background:var(--line);
+}
+
 .place-art{
   height:400px;
   overflow:hidden;
