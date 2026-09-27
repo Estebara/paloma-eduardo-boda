@@ -43,6 +43,8 @@ h1 span{font-weight:400}
 }
 .scroll-cue{position:absolute;z-index:4;bottom:25px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:2px;color:white;text-shadow:0 1px 8px #333;white-space:nowrap}
 .section{padding:40px 9vw;text-align:center;position:relative}
+#dia{padding-bottom:15px}
+#confirma{padding-top:15px}
 .section h2{font-size:46px;font-style:italic;margin:0 0 55px;color:var(--olive)}
 .countdown{background:var(--cream)}
 .timer{display:grid;grid-template-columns:repeat(4,1fr);max-width:850px;margin:auto}
@@ -80,7 +82,9 @@ h1 span{font-weight:400}
 footer{text-align:center;padding:80px 20px;background:var(--olive);color:#f5f1e8}
 footer .script{font-size:38px}
 footer p:last-child{letter-spacing:4px;font-size:10px}
+
 @media(max-width:800px){
+  #dia{padding-bottom:20px}
  .nav{padding:20px 22px}.nav-links{display:none}.brand{font-size:18px}
  .hero{min-height:55vh}
 .hero-content{min-height:55vh}
