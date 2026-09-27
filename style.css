@@ -315,8 +315,8 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
 .proposal-fan{
   position:relative;
   width:100%;
-  max-width:600px;
-  height:340px;
+  max-width:820px;
+  height:300px;
   margin:40px auto 0;
 }
 .fan-photo{
@@ -332,16 +332,12 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   border-radius:2px;
   transition:.3s;
 }
-.fan-photo:hover{
-  z-index:10 !important;
-  transform:translate(-50%,-54%) scale(1.06) rotate(0deg) !important;
-}
 
-.fan-1{transform:translate(-50%,-50%) rotate(-22deg) translateX(-130px);z-index:1}
-.fan-2{transform:translate(-50%,-50%) rotate(-11deg) translateX(-65px);z-index:2}
-.fan-3{transform:translate(-50%,-50%) rotate(11deg) translateX(65px);z-index:2}
-.fan-4{transform:translate(-50%,-50%) rotate(22deg) translateX(130px);z-index:1}
-.fan-5{transform:translate(-50%,-50%) rotate(30deg) translateX(180px);z-index:0}
+.fan-1{transform:translate(-50%,-50%) rotate(-12deg) translateX(-210px);z-index:1}
+.fan-2{transform:translate(-50%,-50%) rotate(-6deg) translateX(-110px);z-index:2}
+.fan-3{transform:translate(-50%,-50%) rotate(6deg) translateX(110px);z-index:2}
+.fan-4{transform:translate(-50%,-50%) rotate(12deg) translateX(210px);z-index:1}
+.fan-5{transform:translate(-50%,-50%) rotate(17deg) translateX(280px);z-index:0}
 
 .fan-main{
   width:210px;
@@ -355,9 +351,9 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   .proposal-fan{height:260px}
   .fan-photo{width:120px;height:150px;padding:6px 6px 18px}
   .fan-main{width:150px;height:190px}
-  .fan-1{transform:translate(-50%,-50%) rotate(-20deg) translateX(-75px)}
-  .fan-2{transform:translate(-50%,-50%) rotate(-10deg) translateX(-38px)}
-  .fan-3{transform:translate(-50%,-50%) rotate(10deg) translateX(38px)}
-  .fan-4{transform:translate(-50%,-50%) rotate(20deg) translateX(75px)}
+  .fan-1{transform:translate(-50%,-50%) rotate(-12deg) translateX(-105px)}
+  .fan-2{transform:translate(-50%,-50%) rotate(-6deg) translateX(-55px)}
+  .fan-3{transform:translate(-50%,-50%) rotate(6deg) translateX(55px)}
+  .fan-4{transform:translate(-50%,-50%) rotate(12deg) translateX(105px)}
   .fan-5{display:none}
 }
