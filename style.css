@@ -337,7 +337,6 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
 .fan-2{transform:translate(-50%,-50%) rotate(-6deg) translateX(-110px);z-index:2}
 .fan-3{transform:translate(-50%,-50%) rotate(6deg) translateX(110px);z-index:2}
 .fan-4{transform:translate(-50%,-50%) rotate(12deg) translateX(210px);z-index:1}
-.fan-5{transform:translate(-50%,-50%) rotate(17deg) translateX(280px);z-index:0}
 
 .fan-main{
   width:210px;
@@ -355,5 +354,4 @@ footer p:last-child{letter-spacing:4px;font-size:10px}
   .fan-2{transform:translate(-50%,-50%) rotate(-6deg) translateX(-55px)}
   .fan-3{transform:translate(-50%,-50%) rotate(6deg) translateX(55px)}
   .fan-4{transform:translate(-50%,-50%) rotate(12deg) translateX(105px)}
-  .fan-5{display:none}
 }
